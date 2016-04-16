@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		firstTask();
-		secondTask();
+		//firstTask();
+		//secondTask();
 		thirdTask();
-		fourthTask();
+		//fourthTask();
 	}
 
 	public static void firstTask() {

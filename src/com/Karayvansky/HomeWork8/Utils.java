@@ -13,7 +13,7 @@ public class Utils {
 	}
 
 	public static boolean palindrome(String word) {
-		for (int i = 0; i <= word.length() - 1; i++) {
+		for (int i = 0; i <= word.length() / 2; i++) {
 			if (word.charAt(i) != word.charAt(word.length() - i - 1))
 				return false;
 		}
